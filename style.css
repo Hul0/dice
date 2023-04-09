@@ -72,6 +72,32 @@ footer{
 .shake{
     animation: shake 0.5s infinite;
 }
+@media only screen and (max-width: 680px) {
+    img{
+        width: 47vw;
+        height:47vw ;
+    }
+    .container {
+      width: 95vw;
+    }
+    
+    button {
+      width: 55vw;
+    }
+    
+    p {
+      font-size: 14px;
+      margin: 20px 0;
+    }
+    
+    .dice-wrapper {
+      flex-wrap: wrap;
+    }
+    
+    .dice {
+      margin-bottom: 20px;
+    }
+  }
 @keyframes shake{
     0%{
         transform: rotate(8deg);
